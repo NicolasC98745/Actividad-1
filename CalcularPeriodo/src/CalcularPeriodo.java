@@ -11,6 +11,11 @@ public class CalcularPeriodo {
 		// Mostramos cuánto tiempo ha pasado
 		calcularPeriodo("El descubrimiento de América", fecha);
 		
+		fecha = LocalDate.of(1969, Month.NOVEMBER, 21);
+		calcularPeriodo("El nacimiento de Internet", fecha);
+		
+		fecha = LocalDate.of(1969, Month.JUNE, 20);
+		calcularPeriodo("la llegada al hombre a la Luna", fecha);
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
